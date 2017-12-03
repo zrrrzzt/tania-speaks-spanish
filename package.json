@@ -1,0 +1,47 @@
+{
+  "name": "tania-speaks-spanish",
+  "version": "1.0.0",
+  "description": "Tania says great things... in spanish",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && nsp check && ava",
+    "test-offline": "standard && ava",
+    "coverage": "nyc ava",
+    "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
+    "standard-fix": "standard --fix",
+    "dev": "next",
+    "build": "next build && next export",
+    "start": "next start",
+    "deploy": "now out --static -n tania-speaks && now alias"
+  },
+  "author": "Geir Gåsodden <geir.gasodden@pythonia.no> (https://github.com/zrrrzzt)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zrrrzzt/tania-speaks-spanish.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zrrrzzt/tania-speaks-spanish/issues"
+  },
+  "homepage": "https://github.com/zrrrzzt/tania-speaks-spanish#readme",
+  "dependencies": {
+    "capitalize": "1.0.0",
+    "knuth-shuffle": "1.0.8",
+    "next": "4.1.4",
+    "react": "16.2.0",
+    "react-dom": "16.2.0",
+    "superb-spanish": "0.2.2"
+  },
+  "devDependencies": {
+    "ava": "0.24.0",
+    "coveralls": "3.0.0",
+    "nsp": "3.1.0",
+    "nyc": "11.3.0",
+    "standard": "10.0.3"
+  },
+  "now": {
+    "name": "tania-speaks",
+    "alias": "spanish.tania.allthethings.win",
+    "type": "static"
+  }
+}
