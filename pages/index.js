@@ -31,16 +31,16 @@ const Index = class extends React.Component {
           <title>Tania says great things</title>
         </Head>
         <div className={'wrapper'}>
-        <h1>Tania says great things... in Spanish!</h1>
-        <img src={'/static/tania.jpg'} />
-        <div className='fortune-box'>
-          {this.state.word}
-        </div>
-        <p>
-          <button onClick={this.speakSpanish}>¡Quiero más!</button>
-        </p>
-        <style jsx global>
-          {`
+          <h1>Tania says great things... in Spanish!</h1>
+          <img src={'/static/tania.jpg'} />
+          <div className='fortune-box'>
+            {this.state.word}
+          </div>
+          <p>
+            <button onClick={this.speakSpanish}>¡Quiero más!</button>
+          </p>
+          <style jsx global>
+            {`
             body {
               background-color: PaleVioletRed;
               padding: 20px;
@@ -76,8 +76,8 @@ const Index = class extends React.Component {
               text-align: center;
             }
           `}
-        </style>
-      </div>
+          </style>
+        </div>
       </div>
     )
   }
