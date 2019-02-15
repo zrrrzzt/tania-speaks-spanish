@@ -28,8 +28,8 @@
     "capitalize": "2.0.0",
     "knuth-shuffle": "1.0.8",
     "next": "8.0.1",
-    "react": "16.7.0",
-    "react-dom": "16.7.0",
+    "react": "16.8.2",
+    "react-dom": "16.8.2",
     "superb-spanish": "0.2.2"
   },
   "devDependencies": {
