@@ -20,7 +20,7 @@ const Index = class extends React.Component {
 
   speakSpanish () {
     const word = getWord()
-    this.setState({word: word})
+    this.setState({ word: word })
   }
 
   render () {
