@@ -1,6 +1,6 @@
 {
   "name": "tania-speaks-spanish",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tania says great things... in spanish",
   "main": "index.js",
   "scripts": {
