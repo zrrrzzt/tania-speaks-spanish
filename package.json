@@ -43,5 +43,8 @@
     "name": "tania-speaks",
     "alias": "spanish.tania.allthethings.win",
     "type": "static"
+  },
+  "engines": {
+    "node": ">= 10.15.1"
   }
 }
